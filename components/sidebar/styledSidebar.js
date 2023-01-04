@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 const StyledSidebar = styled.nav`
+    position: fixed;
     font-size: 1.2em;
     box-shadow: 0 0 1px #bbb;
     border-radius: 1em;
