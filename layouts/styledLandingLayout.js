@@ -7,8 +7,13 @@ const StyledLandingLayout = styled.section`
     display: flex;
     flex-direction: column;
     .logo{
+        z-index: 999;
         flex: 1;
         .name-logo{
+            color: #111;
+            font-weight: 500;
+            font-family: 'Courier New', Courier, monospace !important;
+            letter-spacing: 0.1em;
             position: fixed;
             display: flex;
             justify-content: center;
@@ -25,15 +30,16 @@ const StyledLandingLayout = styled.section`
         
     }
     .content{
+        margin-top: 3.3em;
         flex: 10;
         display: flex;
-        flex-direction: column;
+        flex-direction:row;
         .sidebar{
             flex: 1;
             max-width: 20%;
         }
         .main-content{
-            flex: 10;
+            flex: 15;
             padding-left: 20%;
             padding-top: 2em;
             width: calc(80% - 20%);

@@ -12,7 +12,7 @@ const StyledSidebar = styled.nav`
     width: 15%;
     height: 90vh;
     padding: 0;
-    margin: 0;
+    margin-top: 0;
     ul{
         padding: 1em;
         justify-content: center;

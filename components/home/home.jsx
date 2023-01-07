@@ -1,9 +1,11 @@
 import LandingLayout from "layouts/landingLayout.jsx";
 
+import AboutMe from "components/aboutMe/aboutMe";
+
 const Home = () => {
     return (
         <LandingLayout>
-            hi im Olivier
+            <AboutMe/>
         </LandingLayout>
     );
 }

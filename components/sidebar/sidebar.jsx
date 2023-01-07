@@ -1,5 +1,4 @@
 import Image from "next/image";
-import pfp from "public/pfp.webp";
 
 import StyledSidebar from "./styledSidebar";
 
