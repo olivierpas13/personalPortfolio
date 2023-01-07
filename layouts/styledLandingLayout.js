@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const StyledLandingLayout = styled.section`
     padding: 2em 5em;
-    background-color: rgb(243, 242, 239);
     height: 100vh;
     display: flex;
     flex-direction: column;
