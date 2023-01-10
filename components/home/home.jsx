@@ -4,6 +4,7 @@ import StyledHome from "./styledHome";
 import AboutMe from "components/aboutMe/aboutMe";
 import Skills from "components/skills/skills";
 import Education from "components/education/education";
+import Projects from "components/projects/projects";
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
                 <AboutMe/>
                 <Skills/>
                 <Education/>
+                <Projects/>
             </StyledHome>
         </LandingLayout>
     );
