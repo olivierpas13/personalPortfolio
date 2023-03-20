@@ -5,6 +5,7 @@ import AboutMe from "components/aboutMe/aboutMe";
 import Skills from "components/skills/skills";
 import Education from "components/education/education";
 import Projects from "components/projects/projects";
+import Contact from "components/contact/contact";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
                 <Skills/>
                 <Education/>
                 <Projects/>
+                <Contact/>
             </StyledHome>
         </LandingLayout>
     );

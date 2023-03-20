@@ -7,10 +7,10 @@ import BasicButton from "components/generalComponents/button";
 
 const AboutMe = () => {
   return (
-    <StyledAboutMe>
-        <div className="image-container">
+    <StyledAboutMe id="about-me">
+        <div className="image-container" >
           <div className="presentation">
-            <h1>Hi, I&apos;m Olivier and I solve problems :)</h1>
+            <h1>Hi, I&apos;m Olivier and I solve problems</h1>
           </div>
           <Image alt="code-image" src={codeImage} fill></Image>
         </div>

@@ -5,7 +5,7 @@ import fort from "public/fort.webp";
 
 const Projects = () => {
   return (
-    <StyledProjects>
+    <StyledProjects id="projects">
       <h2>Projects</h2>
       <div>
         <div className="project">

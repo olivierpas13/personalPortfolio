@@ -2,7 +2,7 @@ import StyledEducation from "./styledEducation";
 
 const Education = () => {
   return (
-    <StyledEducation>
+    <StyledEducation id="education">
       <h2>Education and certifications</h2>
       <ul>
         <li>

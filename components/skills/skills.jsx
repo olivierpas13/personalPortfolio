@@ -2,7 +2,7 @@ import StyledSkills from "./styledSkills";
 
 const Skills = () => {
     return (
-        <StyledSkills>
+        <StyledSkills id="skills">
             <h2>Skills</h2>
             <ul>
                 <li>JavaScript</li>

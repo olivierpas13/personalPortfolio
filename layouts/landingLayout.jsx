@@ -6,7 +6,7 @@ const LandingLayout = ({children}) => {
         <StyledLandingLayout>
             <div className="logo" >
                 <header className="name-logo" >
-                    Olivier Paspuel
+                    &lt;Olivier Paspuel/&gt;
                 </header>
             </div>
             <div className="content" >

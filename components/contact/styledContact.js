@@ -12,6 +12,23 @@ const StyledContact = styled.section`
         font-family: 'Courier New', Courier, monospace !important;
         letter-spacing: 0.2em;
     }
+    ul{
+        padding: 1em;
+        li{
+            padding-bottom: 0.5em;
+            color: #111;
+            a{
+                color: #111;
+            }
+            a:active{
+                color: #222
+            }
+            a:visited{
+                color: #333
+            }
+            
+        }
+    }
 
 `
 
